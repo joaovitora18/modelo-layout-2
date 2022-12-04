@@ -1,0 +1,60 @@
+body{
+    background: cornsilk;
+}
+.container{
+    margin: 0 auto;
+    width: 80vw;
+    display: grid;
+    grid-template: 15vh 77vh 8vh/1fr ;
+    grid-template-areas: "h" "m" "f";
+    row-gap: 2px;
+    column-gap: 2px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px;
+    grid-area: h;
+    margin-top: 5px;
+    align-items: flex-end;
+    padding: 6px;
+}
+nav{
+    width: 50.5vw;
+    height: 3vh;
+    border: solid 1px;
+    padding: 10px;
+}
+main{
+    display: flex
+}
+aside{
+    width: 37.5%;
+    height: 95.5%;
+    border: solid 1px;
+    padding: 10px;
+    margin-top: 1.5px;
+}
+.conteudo{
+    width: 76.5%;
+    height: 96%;
+    padding: 2px 0 2px 2px;
+}
+article{
+    height: 76%;
+    border: solid 1px;
+    padding: 10px;
+}
+section{
+    height: 19.5%;
+    border: solid 1px;
+    margin-top: 5px;
+    padding: 10px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    grid-area: f;
+    border: solid 1px;
+    padding: 10px;
+}
